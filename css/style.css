@@ -1,0 +1,207 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+body {
+  font-family: "Poppins", serif;
+  font-size: 16px;
+  font-weight: 400;
+  background: #fff;
+  color: #1e1e1e;
+}
+
+a,
+a:hover {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+p {
+  margin-bottom: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-bottom: 0;
+  font-family: "Playfair Display", serif;
+}
+
+label {
+  margin-bottom: 0;
+}
+
+::selection {
+  color: white;
+  background: #ff7675;
+}
+
+::-webkit-selection {
+  color: white;
+  background: #ff7675;
+}
+
+::-moz-selection {
+  color: white;
+  background: #ff7675;
+}
+
+.scrolltotop {
+  width: 40px;
+  height: 40px;
+  border-radius: 20px 20px 0 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: block;
+  text-align: center;
+  padding-top: 8px;
+  font-size: 22px;
+  color: #ffffff;
+  position: fixed;
+  right: 5px;
+  bottom: 5px;
+  display: none;
+  transition: 0.2s all ease;
+  -webkit-transition: 0.2s all ease;
+  -moz-transition: 0.2s all ease;
+}
+
+.scrolltotop:hover {
+  background: #000;
+  color: #fff;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+}
+
+header {
+  padding: 16px 0px;
+  border-bottom: 1px solid #1e1e1e;
+}
+
+.header_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo a {
+  display: inline-block;
+}
+
+.logo a img {
+  display: inline-block;
+  width: 125px;
+}
+
+.menu_item ul {
+  display: flex;
+  align-items: center;
+  gap: 35px;
+}
+
+.menu_item ul li {
+  display: inline-block;
+}
+
+.menu_item ul li a {
+  display: inline-block;
+  color: #1e1e1e;
+  font-weight: 500;
+  font-size: 18px;
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+.menu_item ul li a:after {
+  content: "";
+  display: block;
+  width: 0%;
+  height: 2px;
+  background-color: #4fa647;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  transition: all 0.3s ease;
+}
+
+.menu_item ul li a:hover {
+  font-weight: 600;
+  color: #4fa647;
+}
+
+.menu_item ul li a:hover:after {
+  width: 100%;
+}
+
+.hero_wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 50px;
+}
+
+.hero_left h2 {
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+}
+
+.hero_left p {
+  margin-top: 24px;
+  margin-bottom: 32px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+.hero_left_btn ul {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.hero_left_btn ul li a {
+  display: block;
+  width: 160px;
+  text-align: center;
+  border: 2px solid #4fa647;
+  color: #1e1e1e;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 10px 10px;
+  position: relative;
+  transition: all 0.3s ease;
+  z-index: 9;
+}
+
+.hero_left_btn ul li:first-child a {
+  background-color: #4fa647;
+  color: #fff;
+}
+
+.hero_left_btn ul li:last-child a:after {
+  content: "";
+  display: block;
+  width: 0%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: #4fa647;
+  transition: all 0.3s ease;
+  z-index: -1;
+}
+
+.hero_left_btn ul li:last-child a:hover:after {
+  width: 100%;
+}
+
+.hero_left_btn ul li:last-child a:hover {
+  color: #fff;
+}
