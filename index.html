@@ -21,6 +21,10 @@
     <!-- Include Bootstrap -->
     <link rel="stylesheet" href="css/bootstrap.min.css" />
 
+    <link rel="stylesheet" href="css/owl.carousel.min.css" />
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     <!-- Main StyleSheet -->
     <link rel="stylesheet" href="css/style.css" />
 
@@ -63,28 +67,524 @@
       <div class="container">
         <div class="hero_wrapper">
           <div class="hero_left">
-            <h2>
+            <h2 data-aos="fade-up">
               Empower Your Health <br />
               with Precision <br />
               Monitoring
             </h2>
-            <p>
+            <p data-aos-delay="300" data-aos="fade-up">
               Discover the latest in diabetes management with <br />
               our state-of-the-art glucometer. Experience accuracy <br />
               and reliability like never before.
             </p>
-            <div class="hero_left_btn">
+            <div data-aos-delay="600" class="hero_left_btn" data-aos="fade-up">
               <ul>
                 <li><a href="#">Contact Us</a></li>
                 <li><a href="#">Learn More</a></li>
               </ul>
             </div>
           </div>
-          <div class="hero_right"></div>
+          <div class="hero_right">
+            <div class="slide_one">
+              <div class="marquee-inner">
+                <div class="marquee_item">
+                  <div class="marque_item_img">
+                    <img src="img/1.png" alt="" />
+                  </div>
+                </div>
+                <div class="marquee_item">
+                  <div class="marque_item_img">
+                    <img src="img/glucometer.png" alt="" />
+                  </div>
+                </div>
+                <div class="marquee_item">
+                  <div class="marque_item_img">
+                    <img src="img/2.png" alt="" />
+                  </div>
+                </div>
+                <div class="marquee_item">
+                  <div class="marque_item_img">
+                    <img src="img/3.png" alt="" />
+                  </div>
+                </div>
+                <div class="marquee_item">
+                  <div class="marque_item_img">
+                    <img src="img/4.png" alt="" />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="slide_two slide_one">
+              <div class="marquee-inner">
+                <div class="marquee_item">
+                  <div class="marque_item_img">
+                    <img src="img/5.png" alt="" />
+                  </div>
+                </div>
+                <div class="marquee_item">
+                  <div class="marque_item_img">
+                    <img src="img/glucometer.png" alt="" />
+                  </div>
+                </div>
+                <div class="marquee_item">
+                  <div class="marque_item_img">
+                    <img src="img/6.png" alt="" />
+                  </div>
+                </div>
+                <div class="marquee_item">
+                  <div class="marque_item_img">
+                    <img src="img/7.png" alt="" />
+                  </div>
+                </div>
+                <div class="marquee_item">
+                  <div class="marque_item_img">
+                    <img src="img/8.png" alt="" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
     <!-- hero area end -->
+
+    <!-- partner area start -->
+    <section id="partner">
+      <div class="container">
+        <div class="partner_wrapper">
+          <div class="partner_left">
+            <h2>Our Partner</h2>
+          </div>
+          <div class="partner_right">
+            <div class="partner_item">
+              <img src="img/webflow_logo.png" alt="" />
+            </div>
+            <div class="partner_item">
+              <img src="img/webflow_logo.png" alt="" />
+            </div>
+            <div class="partner_item">
+              <img src="img/webflow_logo.png" alt="" />
+            </div>
+            <div class="partner_item">
+              <img src="img/webflow_logo.png" alt="" />
+            </div>
+            <div class="partner_item">
+              <img src="img/webflow_logo.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- partner area end -->
+
+    <!-- trust area start -->
+    <section id="trust">
+      <img class="oval" src="img/oval.png" alt="" />
+      <div class="container">
+        <div class="trust_wrapper">
+          <div class="trust_left" data-aos="fade-up">
+            <p>Trust</p>
+            <h2>
+              Why Our Medical Devices <br />
+              Stand Out
+            </h2>
+            <img
+              data-aos="fade-up"
+              data-aos-delay="300"
+              src="img/gk.jpg"
+              alt=""
+            />
+          </div>
+          <div class="trust_right">
+            <div class="trust_right_top">
+              <div class="trust_right_top_left trust_one">
+                <img src="img/gk1.jpg" alt="" />
+              </div>
+              <div class="trust_right_top_left">
+                <img src="img/glucometer.png" alt="" />
+              </div>
+            </div>
+            <div class="trust_right_para">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde
+                harum ex nesciunt optio aliquam qui nihil tempora error
+                laboriosam voluptatibus, dolores voluptatem quisquam sequi
+                exercitationem iure, reprehenderit id, hic veritatis.
+              </p>
+              <a href="#">Learn More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- trust area end -->
+
+    <!-- feature area start -->
+    <section id="feature">
+      <img class="oval" src="img/oval.png" alt="" />
+      <div class="container">
+        <div class="feature_heading text-center" data-aos="fade-up">
+          <h2 class="name">Glucometer</h2>
+          <h2>One of our best selling product</h2>
+        </div>
+        <div class="feature_wrapper">
+          <div class="feature_left">
+            <div class="feature_item" data-aos="fade-up">
+              <div class="fiicon">
+                <img src="img/1.svg" alt="" />
+              </div>
+              <div class="fi_cnt">
+                <h4>Accurate and Reliable Readings</h4>
+                <p>
+                  Get precise blood glucose readings every time with our
+                  FDA-approved glucometer, designed for consistent performance
+                  you can trust.
+                </p>
+              </div>
+            </div>
+            <div class="feature_item" data-aos="fade-up" data-aos-delay="300">
+              <div class="fiicon">
+                <img src="img/2.svg" alt="" />
+              </div>
+              <div class="fi_cnt">
+                <h4>Fast Results</h4>
+                <p>
+                  Receive your blood sugar results in just 5 seconds, helping
+                  you make quick and informed decisions.
+                </p>
+              </div>
+            </div>
+            <div class="feature_item" data-aos="fade-up" data-aos-delay="500">
+              <div class="fiicon">
+                <img src="img/3.svg" alt="" />
+              </div>
+              <div class="fi_cnt">
+                <h4>Easy to Use</h4>
+                <p>
+                  With a simple design and a clear display, testing is
+                  effortless and accessible for all age groups.
+                </p>
+              </div>
+            </div>
+            <div class="feature_item" data-aos="fade-up" data-aos-delay="700">
+              <div class="fiicon">
+                <img src="img/4.svg" alt="" />
+              </div>
+              <div class="fi_cnt">
+                <h4>Minimal Blood Sample</h4>
+                <p>
+                  Requires only a tiny drop of blood, ensuring a comfortable and
+                  hassle-free testing experience.
+                </p>
+              </div>
+            </div>
+            <div class="feature_item" data-aos="fade-up" data-aos-delay="900">
+              <div class="fiicon">
+                <img src="img/5.svg" alt="" />
+              </div>
+              <div class="fi_cnt">
+                <h4>Portable and Convenient</h4>
+                <p>
+                  Lightweight and compact, it’s perfect for on-the-go testing,
+                  ensuring your health is always within reach.
+                </p>
+              </div>
+            </div>
+            <div class="feature_item" data-aos="fade-up" data-aos-delay="1100">
+              <div class="fiicon">
+                <img src="img/6.svg" alt="" />
+              </div>
+              <div class="fi_cnt">
+                <h4>Long Battery Life</h4>
+                <p>
+                  Equipped with a durable battery, the device supports up to
+                  1,000 tests, ensuring reliability for extended periods without
+                  frequent replacements.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="feature_right">
+            <img src="img/glucometer.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- feature area end -->
+
+    <!-- product area start -->
+    <section id="product">
+      <img class="oval2" src="img/oval.png" alt="" />
+      <div class="container">
+        <h2 class="product" data-aos="fade-up">Our Products</h2>
+        <div class="product_wrapper">
+          <div class="product_left">
+            <img src="img/glucometer.png" alt="" />
+          </div>
+          <div class="product_right">
+            <div class="product_item">
+              <img src="img/eq1.jpg" alt="" />
+              <span>Comming Soon</span>
+            </div>
+            <div class="product_item">
+              <img src="img/eq3.jpg" alt="" />
+              <span>Comming Soon</span>
+            </div>
+            <div class="product_item">
+              <img src="img/eq4.jpg" alt="" />
+              <span>Comming Soon</span>
+            </div>
+            <div class="product_item">
+              <img src="img/eq5.jpg" alt="" />
+              <span>Comming Soon</span>
+            </div>
+          </div>
+        </div>
+        <div class="product_details text-center">
+          <a href="#">More Products</a>
+        </div>
+      </div>
+    </section>
+    <!-- product area end -->
+
+    <!-- review area start -->
+    <section id="review">
+      <div class="review_wrapper">
+        <div class="customer_review">
+          <div class="review_heading" data-aos="fade-up">
+            <h2>Customer Testimonials</h2>
+          </div>
+          <div class="owl-carousel products-slider owl-theme">
+            <div class="item">
+              <div class="sl_item_wrapper">
+                <div class="sl_item">
+                  <div class="sl_item_start">
+                    <ul>
+                      <li><img src="img/star.png" alt="" /></li>
+                      <li><img src="img/star.png" alt="" /></li>
+                      <li><img src="img/star.png" alt="" /></li>
+                      <li><img src="img/star.png" alt="" /></li>
+                      <li><img src="img/star.png" alt="" /></li>
+                    </ul>
+                  </div>
+                  <p>
+                    I've been using this glucometer for a month, and it’s
+                    incredibly accurate and easy to use. The results are super
+                    fast, and the compact design makes it perfect for travel.
+                    Highly recommend it!
+                  </p>
+                  <div class="person">
+                    <div class="person_left">
+                      <img src="img/avator.png" alt="" />
+                    </div>
+                    <div class="person_right">
+                      <span>Mahmudul Hasan</span>
+                      <p>Web developer</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="sl_item_wrapper">
+                <div class="sl_item">
+                  <div class="sl_item_start">
+                    <ul>
+                      <li><img src="img/star.png" alt="" /></li>
+                      <li><img src="img/star.png" alt="" /></li>
+                      <li><img src="img/star.png" alt="" /></li>
+                      <li><img src="img/star.png" alt="" /></li>
+                      <li><img src="img/star.png" alt="" /></li>
+                    </ul>
+                  </div>
+                  <p>
+                    This glucometer has been a game changer for managing my
+                    diabetes. The Bluetooth connectivity is so convenient, and I
+                    love being able to share my readings with my doctor
+                    instantly. Great value for the price!
+                  </p>
+                  <div class="person">
+                    <div class="person_left">
+                      <img src="img/avator.png" alt="" />
+                    </div>
+                    <div class="person_right">
+                      <span>Md. Shohag Mia</span>
+                      <p>Teacher</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="sl_item_wrapper">
+                <div class="sl_item">
+                  <div class="sl_item_start">
+                    <ul>
+                      <li><img src="img/star.png" alt="" /></li>
+                      <li><img src="img/star.png" alt="" /></li>
+                      <li><img src="img/star.png" alt="" /></li>
+                      <li><img src="img/star.png" alt="" /></li>
+                      <li><img src="img/star.png" alt="" /></li>
+                    </ul>
+                  </div>
+                  <p>
+                    Testing my blood sugar has never been easier. The small
+                    blood sample requirement and quick results make the process
+                    so much less stressful. The memory feature is also great for
+                    tracking trends over time.
+                  </p>
+                  <div class="person">
+                    <div class="person_left">
+                      <img src="img/avator.png" alt="" />
+                    </div>
+                    <div class="person_right">
+                      <span>Mursheda Pervin</span>
+                      <p>House wife</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="sl_item_wrapper">
+                <div class="sl_item">
+                  <div class="sl_item_start">
+                    <ul>
+                      <li><img src="img/star.png" alt="" /></li>
+                      <li><img src="img/star.png" alt="" /></li>
+                      <li><img src="img/star.png" alt="" /></li>
+                      <li><img src="img/star.png" alt="" /></li>
+                      <li><img src="img/star.png" alt="" /></li>
+                    </ul>
+                  </div>
+                  <p>
+                    I appreciate how user-friendly this device is. The large
+                    display and intuitive interface are perfect for someone like
+                    me who’s not tech-savvy. Plus, the affordable test strips
+                    make it a cost-effective option!
+                  </p>
+                  <div class="person">
+                    <div class="person_left">
+                      <img src="img/avator.png" alt="" />
+                    </div>
+                    <div class="person_right">
+                      <span>Md. Sakib</span>
+                      <p>Student</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="slcontrol">
+            <span id="prev"><img src="img/prev.png" alt="" /></span>
+            <span id="next"><img src="img/next.png" alt="" /></span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- review area end -->
+
+    <!-- contact area start -->
+    <section id="contact">
+      <div class="container">
+        <div class="contact_wrapper">
+          <div class="contact_left">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3642.0654876265353!2d90.44536257597244!3d24.099192375295402!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755d9186c0a5d57%3A0x9c5669b94674bcc4!2z4Kaq4KeH4Kaq4Ka44Ka_IOCml-Cnh-CmnyDgpq7gp4vgprAsIOCmsOCmvuCmnOCnh-CmqOCnjeCmpuCnjeCmsOCmquCngeCmsA!5e0!3m2!1sbn!2sbd!4v1733385116824!5m2!1sbn!2sbd"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+          <div class="contact_right">
+            <h2 data-aos="fade-up">Get In Touch</h2>
+            <div class="contact_right_form">
+              <form action="">
+                <div class="form_wrapper">
+                  <div class="inputgrp">
+                    <label>Name</label>
+                    <input required type="text" placeholder="Enter Your Name" />
+                  </div>
+                  <div class="inputgrp">
+                    <label>Phone Number</label>
+                    <input
+                      required
+                      type="text"
+                      placeholder="Enter Your Phone Number"
+                    />
+                  </div>
+                  <div class="inputgrp">
+                    <label>Email Address</label>
+                    <input
+                      required
+                      type="text"
+                      placeholder="Enter Your Email Address"
+                    />
+                  </div>
+                  <div class="inputgrp">
+                    <label>Message</label>
+                    <textarea placeholder="Message"></textarea>
+                  </div>
+                  <div class="submitbtn">
+                    <button type="submit">Submit</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- contact area end -->
+
+    <!-- footer area start -->
+    <footer>
+      <div class="container">
+        <div class="footer_wrapper">
+          <div class="footer_top">
+            <div class="footer_left">
+              <a href="index.html">
+                <img src="img/ahi_logo.png" alt="" />
+              </a>
+            </div>
+            <div class="footer_middle">
+              <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">Contact Us</a></li>
+              </ul>
+            </div>
+            <div class="footer_social">
+              <ul>
+                <li>
+                  <a href="#"><img src="img/facebook.svg" alt="" /></a>
+                </li>
+                <li>
+                  <a href="#"><img src="img/instagram.svg" alt="" /></a>
+                </li>
+                <li>
+                  <a href="#"
+                    ><img src="img/linkedin-brands-solid.svg" alt=""
+                  /></a>
+                </li>
+                <li>
+                  <a href="#"
+                    ><img src="img/youtube-brands-solid.svg" alt=""
+                  /></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="footer_bottom text-center">
+            <p>© 2024 Advance Health International. All rights reserved.</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- footer area end -->
 
     <!-- Main jQuery -->
     <script src="js/jquery-3.6.0.min.js"></script>
@@ -95,10 +595,71 @@
     <!-- Fontawesome Script -->
     <script src="https://kit.fontawesome.com/e7f2043049.js"></script>
 
+    <script src="js/owl.carousel.min.js"></script>
+
     <!-- Custom jQuery -->
     <script src="js/scripts.js"></script>
 
     <!-- Scroll-Top button -->
     <a href="#" class="scrolltotop"><i class="fas fa-angle-up"></i></a>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        const marquees = document.querySelectorAll(".marquee-inner");
+
+        marquees.forEach((marquee) => {
+          const marqueeContent = marquee.innerHTML;
+          marquee.innerHTML += marqueeContent;
+        });
+      });
+    </script>
+
+    <script>
+      $(".products-slider").owlCarousel({
+        loop: true,
+        margin: 20,
+        center: false,
+        nav: false,
+        // rtl: true,
+        dots: true,
+        autoplay: true,
+        autoplayTimeout: 6000,
+        responsiveClass: true,
+        responsiveRefreshRate: true,
+        responsive: {
+          0: {
+            items: 1,
+          },
+          768: {
+            items: 3,
+          },
+          960: {
+            items: 2,
+          },
+          1200: {
+            items: 8,
+          },
+          1920: {
+            items: 3.3,
+          },
+        },
+      });
+    </script>
+
+    <script>
+      var owl = $(".products-slider");
+      owl.owlCarousel();
+      $("#next").click(function () {
+        owl.trigger("next.owl.carousel");
+      });
+      $("#prev").click(function () {
+        owl.trigger("prev.owl.carousel", [300]);
+      });
+    </script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
