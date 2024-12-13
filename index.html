@@ -48,6 +48,11 @@
             <a href="index.html">
               <img src="img/ahi_logo.png" alt="" />
             </a>
+            <div class="bar d-block d-lg-none">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
           </div>
           <div class="menu_item">
             <ul>
@@ -72,6 +77,66 @@
               with Precision <br />
               Monitoring
             </h2>
+            <div class="hero_right d-flex d-lg-none">
+              <div class="slide_one">
+                <div class="marquee-inner">
+                  <div class="marquee_item">
+                    <div class="marque_item_img">
+                      <img src="img/1.png" alt="" />
+                    </div>
+                  </div>
+                  <div class="marquee_item">
+                    <div class="marque_item_img">
+                      <img src="img/glucometer.png" alt="" />
+                    </div>
+                  </div>
+                  <div class="marquee_item">
+                    <div class="marque_item_img">
+                      <img src="img/2.png" alt="" />
+                    </div>
+                  </div>
+                  <div class="marquee_item">
+                    <div class="marque_item_img">
+                      <img src="img/3.png" alt="" />
+                    </div>
+                  </div>
+                  <div class="marquee_item">
+                    <div class="marque_item_img">
+                      <img src="img/4.png" alt="" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="slide_two slide_one">
+                <div class="marquee-inner">
+                  <div class="marquee_item">
+                    <div class="marque_item_img">
+                      <img src="img/5.png" alt="" />
+                    </div>
+                  </div>
+                  <div class="marquee_item">
+                    <div class="marque_item_img">
+                      <img src="img/glucometer.png" alt="" />
+                    </div>
+                  </div>
+                  <div class="marquee_item">
+                    <div class="marque_item_img">
+                      <img src="img/6.png" alt="" />
+                    </div>
+                  </div>
+                  <div class="marquee_item">
+                    <div class="marque_item_img">
+                      <img src="img/7.png" alt="" />
+                    </div>
+                  </div>
+                  <div class="marquee_item">
+                    <div class="marque_item_img">
+                      <img src="img/8.png" alt="" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
             <p data-aos-delay="300" data-aos="fade-up">
               Discover the latest in diabetes management with <br />
               our state-of-the-art glucometer. Experience accuracy <br />
@@ -84,7 +149,7 @@
               </ul>
             </div>
           </div>
-          <div class="hero_right">
+          <div class="hero_right d-none d-lg-flex">
             <div class="slide_one">
               <div class="marquee-inner">
                 <div class="marquee_item">
@@ -150,7 +215,7 @@
     <!-- hero area end -->
 
     <!-- partner area start -->
-    <section id="partner">
+    <!-- <section id="partner">
       <div class="container">
         <div class="partner_wrapper">
           <div class="partner_left">
@@ -175,7 +240,7 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
     <!-- partner area end -->
 
     <!-- trust area start -->
@@ -631,13 +696,13 @@
             items: 1,
           },
           768: {
-            items: 3,
+            items: 2,
           },
           960: {
             items: 2,
           },
           1200: {
-            items: 8,
+            items: 3.5,
           },
           1920: {
             items: 3.3,
@@ -660,6 +725,12 @@
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
       AOS.init();
+    </script>
+
+    <script>
+      $(".bar").click(function () {
+        $(".menu_item ul").slideToggle();
+      });
     </script>
   </body>
 </html>
