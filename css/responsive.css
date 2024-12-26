@@ -327,6 +327,41 @@ Small Screen - Tablate
   .hero_left h2 br {
     display: none;
   }
+
+  .subannarwrapper h2 {
+    font-size: 30px;
+  }
+
+  #subannar > img {
+    height: 235px;
+  }
+
+  .aboutext_wrapper {
+    gap: 30px;
+  }
+
+  .abtext_left ul li img {
+    height: 180px;
+  }
+
+  #aboutext,
+  #mission {
+    position: static;
+    height: auto;
+  }
+
+  .miss_right p {
+    margin-top: 20px;
+    width: 100%;
+  }
+
+  .mission_wrapper {
+    gap: 50px;
+  }
+
+  .team_blg {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
 
 /*
@@ -586,6 +621,81 @@ Small Screen - Mobile
   .footer_bottom {
     padding: 25px 0px;
   }
+
+  .subannarwrapper h2 {
+    font-size: 30px;
+    width: 100%;
+  }
+
+  #subannar > img {
+    height: 203px;
+  }
+
+  #aboutext {
+    height: auto;
+    padding: 40px 0px;
+  }
+
+  .aboutext_wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 25px;
+  }
+
+  .abtext_left ul li img {
+    height: 195px;
+  }
+
+  #aboutext,
+  #mission {
+    position: static;
+    padding: 35px 0px;
+    height: auto;
+  }
+
+  .abtext_right {
+    text-align: center;
+  }
+
+  .mission_wrapper {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+
+  .miss_right p {
+    width: 100%;
+  }
+
+  .miss_right h2 {
+    font-size: 30px;
+  }
+
+  .miss_right {
+    order: 2;
+    text-align: center;
+  }
+
+  .miss_left {
+    order: 1;
+  }
+
+  #team {
+    padding: 35px 0px;
+  }
+
+  .team_wrapper > h2 {
+    font-size: 32px;
+    margin-bottom: 28px;
+  }
+
+  .team_blg {
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+  }
+
+  .subannarwrapper h2 {
+    padding: 0px 20px;
+  }
 }
 
 /*
@@ -844,5 +954,89 @@ Xtra Small Screen - Small Mobile
 
   .footer_bottom {
     padding: 25px 0px;
+  }
+
+  .subannarwrapper h2 {
+    font-size: 30px;
+    width: 100%;
+  }
+
+  #subannar > img {
+    height: 160px;
+  }
+
+  #aboutext {
+    height: auto;
+    padding: 40px 0px;
+  }
+
+  .aboutext_wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 25px;
+  }
+
+  .abtext_left ul li img {
+    height: 155px;
+  }
+
+  #aboutext,
+  #mission {
+    position: static;
+    padding: 35px 0px;
+    height: auto;
+  }
+
+  .abtext_right {
+    text-align: center;
+  }
+
+  .mission_wrapper {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+
+  .miss_right p {
+    width: 100%;
+  }
+
+  .miss_right h2 {
+    font-size: 30px;
+  }
+
+  .miss_right {
+    order: 2;
+    text-align: center;
+  }
+
+  .miss_left {
+    order: 1;
+  }
+
+  #team {
+    padding: 35px 0px;
+  }
+
+  .team_wrapper > h2 {
+    font-size: 32px;
+    margin-bottom: 28px;
+  }
+
+  .team_blg {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+
+  .team_item {
+    width: 80%;
+    margin: auto;
+  }
+
+  .contactus {
+    padding: 35px 0px;
+  }
+
+  .addresstext ul li p {
+    width: 80%;
   }
 }
